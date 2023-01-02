@@ -11,7 +11,7 @@ public class AuthorService {
     @Autowired
     AuthorRepository authorRepository1;
 
-    public void create(Author author){
-        authorRepository1.save(author);
+    public void create(Author authors){
+        authorRepository1.save(authors);
     }
 }
